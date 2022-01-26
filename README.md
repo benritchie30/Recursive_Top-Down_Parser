@@ -3,3 +3,9 @@
 This program takes an input of a grammar and an input of a string and recursively goes through the productions to see if the input string is a valid production of the input grammar.
 
 One of the input grammars covers arithmatic expressions with add and multiply and the other is the input to the video game Human Resource Machine. This parser works for any input grammar though. The input lists all of the npn-terminals followed by all the terminals followed by each production.
+
+Arguments to the program should be the grammar file and the input file.
+
+The folowing is an example input to the program:
+
+Python parser.py grammar-expr input-expr.in1
